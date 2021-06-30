@@ -6,9 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yjjfh/yjj-cli-dev.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yjjfh/yjj-cli-dev/issues"
+  },
+  "workspaces": [
+    "core/*",
+    "utils/*",
+    "commands/*",
+    "models/*"
+  ],
+  "homepage": "https://github.com/yjjfh/yjj-cli-dev#readme",
   "devDependencies": {
     "lerna": "^4.0.0"
   }

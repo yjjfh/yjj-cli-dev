@@ -1,0 +1,29 @@
+{
+  "name": "@yjj-cli-dev/utils",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "yu.jun.jie <junjie.yu@eslink.com>",
+  "homepage": "https://github.com/yjjfh/yjj-cli-dev/tree/main/utils/utils#readme",
+  "license": "ISC",
+  "main": "lib/utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yjjfh/yjj-cli-dev.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/yjjfh/yjj-cli-dev/issues"
+  },
+  "dependencies": {
+    "@yjj-cli-dev/core": "^1.0.2"
+  }
+}
